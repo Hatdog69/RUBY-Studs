@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Ruby Hub | 3️⃣ Pet Simulator 99! 🤙", "Light theme")
+local Window = Library.CreateLib("Ruby Hub | 3️⃣ Pet Simulator 99! 🤙", "Sentinel")
 
 -- MAIN
 local Main = Window:NewTab("Studs")
