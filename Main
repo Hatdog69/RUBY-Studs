@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ruby Hub | 3️⃣ Pet Simulator 99! 🤙", "Light theme")
+
+-- MAIN
+local Main = Window:NewTab("Studs")
+local MainSection = Main:NewSection("V3")
+
+MainSection:NewButton("Auto Studs", "Studs", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hatdog69/Ruby-Hub-V3/main/Auto%20Studs%20V3"))()
+
+end)
